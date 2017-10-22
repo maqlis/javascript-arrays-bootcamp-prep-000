@@ -25,9 +25,6 @@ function accessElementInArray(array, index){
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
-  newArray = array.unshift()
-  console.log(array)
-  console.log(newArray)
-  return newArray
+  array.shift()
+  return array
 }
-console.log(destructivelyRemoveElementFromBeginningOfArray([1,2,3]))
