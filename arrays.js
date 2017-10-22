@@ -28,3 +28,4 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
   array.unshift()
   return array
 }
+console.log(destructivelyRemoveElementFromBeginningOfArray([1,2,3]))
